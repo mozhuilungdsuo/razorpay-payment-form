@@ -1,0 +1,39 @@
+/* Custom CSS for Razorpay Payment Form */
+
+#razorpayPaymentForm {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#razorpayPaymentForm label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#razorpayPaymentForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#payButton {
+    background-color: #F37254;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#payButton:hover {
+    background-color: #e35d47;
+}
